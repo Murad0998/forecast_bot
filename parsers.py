@@ -12,6 +12,7 @@ headers = {
 }
 
 
+# Функция для вывода погоды на данный момент.
 def current_weather(url, headers):
     req = requests.get(url, headers=headers)
     src = req.text
@@ -42,6 +43,7 @@ def current_weather(url, headers):
     return f"Сейчас в Черкесске {sign}{temperature}🌡️"
 
 
+# Функция для вывода прогноза на неделю.
 def week_weather(url2, headers):
     req2 = requests.get(url2, headers=headers)
     src2 = req2.text
