@@ -15,7 +15,7 @@ headers = {
 bot = Bot(TOKEN)
 dp = Dispatcher(bot)
 
-async def on_startup(_): # Бот запу..стился
+async def on_startup(_): # Бот запустился
     print('Я запустился =)')
 
 
