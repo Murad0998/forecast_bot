@@ -117,7 +117,9 @@ def week_weather(url2, headers):
     plt.ylabel('Температура')
     plt.bar(x_indexes - (width / 2), y2_list, label='Ночная температура', width=width)
     plt.bar(x_indexes + (width / 2), y1_list, label='Дневная температура', width=width)
+    plt.legend()
     plt.savefig('image.png')
+    plt.delaxes()
 
     for i in range(len(week)):
         ans.append(
