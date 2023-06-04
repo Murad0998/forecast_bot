@@ -40,7 +40,7 @@ def current_weather(url, headers):
         "section", class_="section section-content section-bottom-collapse").find("div").find("a").find("div").find(
         "div").find(class_="weather").find("div").find("span").find_next().next_element.next_element.text
 
-    return f"Сейчас в Черкесске {sign}{temperature}🌡️"
+    return f"Сейчас в (Ваш Город) {sign}{temperature}🌡️"
 
 
 # Функция для вывода прогноза на неделю.
