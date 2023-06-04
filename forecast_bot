@@ -5,7 +5,7 @@ from aiogram.types import InputFile
 import os
 
 
-TOKEN = '6295284891:AAEboMpnbN9B6HhazHnu1FOMM5RDCkGvVO4'
+TOKEN = 'YOUR_BOT_TOKEN'
 
 headers = {
     "accept": "*/*",
