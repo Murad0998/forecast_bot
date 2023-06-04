@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-url = 'https://www.gismeteo.ru/weather-cherkessk-5224/'
-url2 = 'https://www.gismeteo.ru/weather-cherkessk-5224/2-weeks/'
+url = 'https://www.gismeteo.ru/weather-cherkessk-5224/' # Ссылка на сайте гисметео на сегодня
+url2 = 'https://www.gismeteo.ru/weather-cherkessk-5224/2-weeks/' # Ссылка на сайте гисметео на неделю
 headers = {
     "accept": "*/*",
     "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36"
